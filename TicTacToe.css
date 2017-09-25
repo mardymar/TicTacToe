@@ -1,0 +1,33 @@
+.piece {
+    height: 10%;
+}
+
+.active {
+    background-color: aquamarine;
+}
+
+#game {
+    width: 310px;
+    height: 310px;
+    border: 1px solid #dadada;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#game > li {
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    text-decoration:none;
+    width: 100px;
+    height: 100px;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
